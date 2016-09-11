@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "MGText"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
 s.summary      = "测试Text"
 
 s.description  = <<-DESC
