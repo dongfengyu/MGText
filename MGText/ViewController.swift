@@ -15,12 +15,15 @@ class ViewController: UIViewController {
     var textString1:String?
     
     var textString2:String?
+    
+    var textString3:String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         textString = "Text"
         textString1 = "Text1"
         textString2 = "Text2"
+        textString3 = "Text3"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
