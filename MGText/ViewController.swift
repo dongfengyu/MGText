@@ -11,10 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     var textString:String?
+    
+    var textString1:String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         textString = "我是来测试的"
+        textString1 = "版本额"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
