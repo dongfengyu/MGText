@@ -13,11 +13,14 @@ class ViewController: UIViewController {
     var textString:String?
     
     var textString1:String?
+    
+    var textString2:String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        textString = "我是来测试的"
-        textString1 = "版本额"
+        textString = "Text"
+        textString1 = "Text1"
+        textString2 = "Text2"
         // Do any additional setup after loading the view, typically from a nib.
     }
 
