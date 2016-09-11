@@ -14,7 +14,7 @@ s.author       = { "Song" => "dongfengyu132@163.com" }
 s.platform     = :ios,'8.0'
 
 s.source       = { :git => "https://github.com/dongfengyu/MGText.git", :tag => "#{s.version}" }
-s.source_files = "MGText/.{swift}"
+s.source_files = "MGText/*.{swift}"
 s.dependency "AFNetworking", "~> 2.0"
 s.framework    = "UIKit"
 s.requires_arc = true
